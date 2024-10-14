@@ -1,97 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculator App</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-            color: #333;
-        }
+<div align="center">
+  <img src="emicalculator_logo.png" alt="EMI Calculator App Logo" width="100%">
+</div>
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
+# EMI Calculator App | Finance & Real Estate Tools
 
-        h1 {
-            color: #0275d8;
-            text-align: center;
-            font-weight: 600;
-        }
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&width=435&lines=35+Unique+Calculators;Finance+Tools+Made+Simple;Business%2C+EMI%2C+and+More;Real+Estate+Financial+Tools" alt="Typing SVG" />
+</p>
 
-        p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-        }
+<p align="center">
+  <a href="https://twitter.com/dev-emicalculator"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
+  <a href="https://github.com/emicalculator"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/emicalculator"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+</p>
 
-        .features {
-            list-style: none;
-            padding: 0;
-        }
+## 👨‍💻 About The App
 
-        .features li {
-            padding: 10px 0;
-            border-bottom: 1px solid #ddd;
-        }
+Greetings! Welcome to the EMI Calculator App – your go-to solution for easy financial and real estate calculations. This app hosts over **35 financial calculators**, covering everything from **EMI** to **Business** and **Real Estate** calculations, all designed with a simple, beautiful user interface for quick and efficient use.
 
-        .features li:last-child {
-            border-bottom: none;
-        }
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" alt="Calculator UI" width="300">
 
-        .icon {
-            margin-right: 10px;
-            color: #0275d8;
-        }
+- 🔢 **Calculators Available**: EMI, Loan, Investment, Property Calculators, and many more
+- 📱 **Cross-Platform**: Available on iOS and Android
+- 🎨 **Beautiful UI**: Clean design with animations and icons for a professional experience
+- 💼 **Real-Time Calculations**: Accurate, fast, and intuitive calculation results
+- 🌍 **Supports Multiple Currencies**: Automatically switches currency based on your location
+- 🔗 **Explore More**: [EMI Calculator Website](https://www.emicalculatorapp.com)
 
-        .buttons {
-            text-align: center;
-            margin-top: 20px;
-        }
+## 🛠️ Technology Stack
 
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #0275d8;
-            color: #fff;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: 600;
-        }
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="center">Frontend</h3>
+      <div align="center">
+        <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="Flutter" height="50" />
+        <img src="https://user-images.githubusercontent.com/25181517/186150365-da1eccce-6201-487c-8649-45e9e99435fd.png" alt="Dart" height="50" />
+        <img src="https://user-images.githubusercontent.com/25181517/121406611-a8246b80-c95e-11eb-9b11-b771486377f6.png" alt="Firebase" height="50" />
+        <img src="https://user-images.githubusercontent.com/25181517/117269608-b7dcfb80-ae58-11eb-8e66-6cc8753553f0.png" alt="Android" height="50" />
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="center">Backend</h3>
+      <div align="center">
+        <img src="https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png" alt="Node.js" height="50" />
+        <img src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="MongoDB" height="50" />
+        <img src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" alt="Firestore" height="50" />
+      </div>
+    </td>
+  </tr>
+</table>
 
-        .button:hover {
-            background-color: #025aa5;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Calculator App</h1>
-        <p>Welcome to the official repository of the <strong>Calculator App</strong>. This app provides a variety of financial and business calculators such as EMI, loan, tax, and real estate calculators. Designed for a seamless and intuitive user experience.</p>
+## 🌟 Featured Calculators
 
-        <h2>Key Features:</h2>
-        <ul class="features">
-            <li><span class="icon">✔</span> Over 35 types of calculators, including EMI, business, and finance</li>
-            <li><span class="icon">✔</span> Professionally designed user interface with animations</li>
-            <li><span class="icon">✔</span> Real-time calculation results</li>
-            <li><span class="icon">✔</span> Multi-language and currency support</li>
-            <li><span class="icon">✔</span> Lightweight and fast performance</li>
-        </ul>
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
-        <div class="buttons">
-            <a href="#" class="button">Get the App</a>
-            <a href="#" class="button">Documentation</a>
-        </div>
-    </div>
-</body>
-</html>
+  <div style="width: 45%; min-width: 300px; background: #1a1b27; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+    <img src="emicalculator_emi.png" style="width: 100%; border-radius: 5px;" alt="EMI Calculator">
+    <h3 style="color: #70a5fd; margin-top: 15px;">EMI Calculator</h3>
+    <p style="color: #a9b1d6;">Quickly calculate your monthly EMI for home loans, car loans, and more.</p>
+    <a href="https://github.com/emicalculator/emi" style="display: inline-block; margin-top: 15px; background: #70a5fd; color: #1a1b27; padding: 8px 15px; border-radius: 5px; text-decoration: none;">View Project</a>
+  </div>
+
+  <div style="width: 45%; min-width: 300px; background: #1a1b27; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+    <img src="emicalculator_mortgage.png" style="width: 100%; border-radius: 5px;" alt="Mortgage Calculator">
+    <h3 style="color: #70a5fd; margin-top: 15px;">Mortgage Calculator</h3>
+    <p style="color: #a9b1d6;">Easily calculate your mortgage payments and interest over time.</p>
+    <a href="https://github.com/emicalculator/mortgage" style="display: inline-block; margin-top: 15px; background: #70a5fd; color: #1a1b27; padding: 8px 15px; border-radius: 5px; text-decoration: none;">View Project</a>
+  </div>
+
+  <div style="width: 45%; min-width: 300px; background: #1a1b27; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+    <img src="emicalculator_tax.png" style="width: 100%; border-radius: 5px;" alt="Tax Calculator">
+    <h3 style="color: #70a5fd; margin-top: 15px;">Tax Savings Calculator</h3>
+    <p style="color: #a9b1d6;">Calculate your savings from tax deductions and rebates in seconds.</p>
+    <a href="https://github.com/emicalculator/tax" style="display: inline-block; margin-top: 15px; background: #70a5fd; color: #1a1b27; padding: 8px 15px; border-radius: 5px; text-decoration: none;">View Project</a>
+  </div>
+
+</div>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-stats-alpha.vercel.app/api?username=emicalculator&cc=22272e&tc=37BCF6&ic=fff&bc=0000">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emicalculator&theme=react&hide_border=true" width="700">
+</div>
+
+## 🤝 Let's Connect
+
+<p align="center">
+  <a href="https://twitter.com/emicalculator" target="_blank"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/emicalculator" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:emicalculator@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Thank You" width="100%">
+</div>
